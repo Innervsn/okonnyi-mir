@@ -1,0 +1,881 @@
+body {
+  background-color: white;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .container-block__img {
+  margin-top: 10px;
+  width: 19%;
+}
+
+.header .container-block__navigations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container-block__navigations__item {
+  margin-right: 50px;
+  list-style: none;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.header .container-block__navigations__item .item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.header .container-block__buttons__buttons1 {
+  background-color: #0072bc;
+  border-radius: 3px;
+  border: 0;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 10px 18px;
+  margin-right: 14px;
+}
+
+.header .container-block__buttons__buttons1 .buttons1-img {
+  margin-right: 10px;
+}
+
+.header .container-block__buttons__buttons2 {
+  background-color: #0072bc;
+  border-radius: 3px;
+  border: 0;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 10px 18px;
+}
+
+.header .container-block__buttons__buttons2 .buttons2-img {
+  margin-right: 10px;
+}
+
+.services {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.services * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.services .container-title {
+  height: 144px;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 6;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(vekalogo.png);
+  background-size: cover;
+}
+
+.services .container__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.services .container__list__item1 {
+  width: 49%;
+  border-radius: 3px;
+  margin-right: 10.5px;
+  margin-bottom: 15px;
+  padding: 55px 0px 38px 55px;
+  background: linear-gradient(
+      90.45deg,
+      #ffffff 25%,
+      rgba(255, 255, 255, 0) 98.81%
+    ),
+    url(window1.png);
+  background-size: cover;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.services .container__list__item1__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.services .container__list__item1__header__icon {
+  width: 14%;
+}
+
+.services .container__list__item1__header__title {
+  width: 50%;
+  margin-left: 25px;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.services .container__list__item1__description {
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.services .container__list__item2 {
+  width: 49%;
+  border-radius: 3px;
+  margin-right: 10.5px;
+  margin-bottom: 15px;
+  padding: 55px 0px 38px 55px;
+  background: linear-gradient(
+      90.45deg,
+      #ffffff 25%,
+      rgba(255, 255, 255, 0) 98.81%
+    ),
+    url(window2.jpg);
+  background-size: cover;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.services .container__list__item2__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.services .container__list__item2__header__icon {
+  width: 14%;
+}
+
+.services .container__list__item2__header__title {
+  margin-left: 25px;
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.services .container__list__item2__description {
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.services .container__list__item3 {
+  width: 49%;
+  border-radius: 3px;
+  margin-right: 10.5px;
+  margin-bottom: 15px;
+  padding: 55px 0px 38px 55px;
+  background: linear-gradient(
+      90.45deg,
+      #ffffff 25%,
+      rgba(255, 255, 255, 0) 98.81%
+    ),
+    url(window3.jpg);
+  background-size: cover;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.services .container__list__item3__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.services .container__list__item3__header__icon {
+  width: 14%;
+}
+
+.services .container__list__item3__header__title {
+  margin-left: 25px;
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.services .container__list__item3__description {
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.services .container__list__item4 {
+  width: 49%;
+  border-radius: 3px;
+  margin-right: 10.5px;
+  margin-bottom: 15px;
+  padding: 55px 0px 38px 55px;
+  background: linear-gradient(
+      90.45deg,
+      #ffffff 25%,
+      rgba(255, 255, 255, 0) 98.81%
+    ),
+    url(window4.jpg);
+  background-size: cover;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+
+.services .container__list__item4__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.services .container__list__item4__header__icon {
+  width: 14%;
+}
+
+.services .container__list__item4__header__title {
+  margin-left: 25px;
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.services .container__list__item4__description {
+  width: 50%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.products {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.products .container-title {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 6;
+  color: white;
+  text-align: center;
+  background-image: url(vekalogo.png);
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.products .container__baner {
+  margin-bottom: 40px;
+}
+
+.products .container__series__whs60 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: #c0dcef;
+  margin-bottom: 30px;
+}
+
+.products .container__series__whs60__profile {
+  background-color: white;
+  width: 50%;
+  border-radius: 3px;
+}
+
+.products .container__series__whs60__profile__img {
+  width: 100%;
+}
+
+.products .container__series__whs60__description {
+  width: 47%;
+  padding-top: 74px;
+}
+
+.products .container__series__whs60__description__name {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.products .container__series__whs60__description__tagline {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.products .container__series__whs60__description__characteristics {
+  width: 100%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.products .container__series__whs72 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: #c0dcef;
+}
+
+.products .container__series__whs72__profile {
+  width: 50%;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.products .container__series__whs72__profile__img {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.products .container__series__whs72__description {
+  width: 47%;
+  padding-top: 74px;
+}
+
+.products .container__series__whs72__description__name {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.products .container__series__whs72__description__tagline {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.products .container__series__whs72__description__characteristics {
+  width: 100%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.products .container__series__softline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: #c0dcef;
+}
+
+.products .container__series__softline__profile {
+  width: 50%;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.products .container__series__softline__profile__img {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.products .container__series__softline__description {
+  width: 47%;
+  padding-top: 74px;
+}
+
+.products .container__series__softline__description__name {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.products .container__series__softline__description__tagline {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.products .container__series__softline__description__characteristics {
+  width: 100%;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contacts .container-title {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 6;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  background-image: url(vekalogo.png);
+  background-size: cover;
+}
+
+.contacts .container__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: #c0dcef;
+}
+
+.contacts .container__block__location {
+  width: 50%;
+}
+
+.contacts .container__block__location__img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.contacts .container__block__list {
+  width: 47%;
+  padding-top: 40px;
+}
+
+.contacts .container__block__list__title {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+.contacts .container__block__list__info {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: black;
+}
+
+.about {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.about .container-title {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 6;
+  color: white;
+  text-align: center;
+  background-image: url(vekalogo.png);
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.about .container__descripton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+  background-color: #c0dcef;
+  margin-bottom: 100px;
+}
+
+.about .container__descripton__install {
+  width: 50%;
+}
+
+.about .container__descripton__install-img {
+  border-radius: 3px;
+  width: 100%;
+}
+
+.about .container__descripton__company {
+  width: 50%;
+}
+
+.about .container__descripton__company__logo {
+  margin-bottom: 30px;
+}
+
+.about .container__descripton__company__logo-img {
+  padding: 30px 0px 0px 170px;
+  width: 40%;
+}
+
+.about .container__descripton__company__story {
+  width: 90%;
+  padding-left: 40px;
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;
+}
+
+.about .container__work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.about .container__work__professionalism {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.about .container__work__professionalism__logo {
+  width: 30%;
+}
+
+.about .container__work__professionalism__logo-img {
+  width: 100%;
+}
+
+.about .container__work__professionalism__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__professionalism__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__professionalism__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.about .container__work__cost {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.about .container__work__cost__logo {
+  width: 30%;
+}
+
+.about .container__work__cost__logo-img {
+  width: 100%;
+}
+
+.about .container__work__cost__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__cost__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__cost__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.about .container__work__mobility {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.about .container__work__mobility__logo {
+  width: 30%;
+}
+
+.about .container__work__mobility__logo-img {
+  width: 100%;
+}
+
+.about .container__work__mobility__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__mobility__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__mobility__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.about .container__work__loyalty {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.about .container__work__loyalty__logo {
+  width: 30%;
+}
+
+.about .container__work__loyalty__logo-img {
+  width: 100%;
+}
+
+.about .container__work__loyalty__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__loyalty__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__loyalty__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.about .container__work__speed {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.about .container__work__speed__logo {
+  width: 30%;
+}
+
+.about .container__work__speed__logo-img {
+  width: 100%;
+}
+
+.about .container__work__speed__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__speed__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__speed__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.about .container__work__quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.about .container__work__quality__logo {
+  width: 30%;
+}
+
+.about .container__work__quality__logo-img {
+  width: 100%;
+}
+
+.about .container__work__quality__descripton {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.about .container__work__quality__descripton-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.about .container__work__quality__descripton-doing {
+  font-size: 15px;
+  line-height: 18px;
+}
+/*# sourceMappingURL=style.css.map */
